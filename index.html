@@ -1,9 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Cv</title>
-  </head>
-  <body></body>
-</html>
+<html lang="et" >
+<head>
+  <meta charset="UTF-8">
+  <title>CV Printable A4</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<!-- partial:index.partial.html -->
+   
+   <body id="top">
+      <!--Page 1-->
+      <page size="A4">
+         <div id="button" class="no-print">
+            <button type="button" onclick="myFunction()"><span class="button-txt"><i class="fa fa-print" aria-hidden="true"></i>
+            &nbsp;Prindi</span></button>
+            <script>
+               function myFunction() {
+                   window.print();
+               }
+            </script>
+         </div>
+         <div class="cv">
+            <div id="header">
+               <div class="contactDetails">
+                  <ul>
+                     <li class="icon" title="Kirjuta mulle!"><a href="mailto:my@mail.ee"><i class="fa fa-envelope">&nbsp;&nbsp;</i>my@mail.ee</a></li>
+                     <li class="icon" title="Helista mulle!"><a href="tel:1234567"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;1234567</a></li>
+                 
+                  </ul>
+               </div>
+            </div>
+            <div class="mainDetails">
+               <div id="headshot">
+                  <img id="avatar" src="https://visualangle.ee/delivery/temp_image/icon.png" alt="Margus Lillemagi" title="See olen mina" />
+               </div>
+               <div id="name">
+                  <h1>Jüri</br>Varvas<span class="nameDetails">&nbsp;&nbsp;19. veebruar 1917</span></h1>
+               </div>
+               <div class="clear"></div>
+            </div>
+            <div id="mainArea">
+               <section>
+                  <article>
+                     <div class="sectionTitle">
+                        <h1>Profiil</h1>
+                     </div>
+                     <div class="sectionContent">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                     </div>
+                  </article>
+                  <div class="clear"></div>
+               </section>
+               <section>
+                  <div class="sectionTitle">
+                     <h1>Teadmised & oskused</h1>
+                  </div>
+                  <div class="sectionContent">
+                     <ul class="keySkills">
+                        <li class="subDetails">Oskan hästi</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;HTML, CSS, JS</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Bootstrap</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;React</li>
+               
+                        <li class="subDetails">Oskan rahuldavalt</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;PHP, Python</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Django</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;SQL, MySQL</li>
+
+                        <li class="subDetails">Täiendan</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Node.js, Go</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Docks</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;Webpack</li>
+
+                     </ul>
+                  </div>
+                  <div class="clear"></div>
+               </section>
+               <section>
+                  <div class="sectionTitle">
+                     <h1>Portfoolio & sotsiaalmeedia</h1>
+                  </div>
+                  <div class="sectionContent">
+                     <ul class="clients">
+                        <li title="Vaata minu koodi!"><a href="https://codepen.io" target="_blank">codepen.io</a></li>
+                        <li title="Jälgi minu Facebook'i!"><a href="https://www.facebook.com" target="_blank">facebook.com</a></li>
+                     </ul>
+                  </div>
+                  <div class="clear"></div>
+               </section>
+               <section>
+                  <div class="sectionTitle">
+                     <h1>Töökogemus</h1>
+                  </div>
+                  <div class="sectionContent">
+                     <ul class="list">
+                        <li><span class="subDetails">2018 - k.a.&nbsp;&nbsp;</span><span class="bold">Lorem Ipsum</span> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</li>
+                        <li><span class="subDetails">2010 - 2012&nbsp;&nbsp;</span><span class="bold">Lorem Ipsum</span>- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</li>
+                        <li><span class="subDetails">2008 - k.a.&nbsp;&nbsp;</span><span class="bold">Lorem Ipsum</span> - veebi- ja multimeedia lahenduste kujundamine, arendamine ja haldamine ning klientide nõustamine.</li>
+                        <li><span class="subDetails">1990 - 2008.&nbsp;&nbsp;</span><span class="bold">Lorem Ipsum</span> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</li>
+                     </ul>
+                  </div>
+                  <div class="clear"></div>
+               </section>
+               <section>
+                  <div class="sectionTitle">
+                     <h1>Haridus</h1>
+                  </div>
+                  <div class="sectionContent">
+                     <ul class="list">
+                        <li><span class="subDetails">2017-2019&nbsp;&nbsp;</span>Lorem ipsum dolor sit amet, consectetur</li>
+                        <li><span class="subDetails">2001-2002&nbsp;&nbsp;</span>Lorem ipsum dolor sit amet</li>
+                        <li><span class="subDetails">1997-1999&nbsp;&nbsp;</span>Consectetur adipiscing elit</li>
+                        <li><span class="subDetails">1975-1986&nbsp;&nbsp;</span>Adipiscing elit</li>
+                     </ul>
+                  </div>
+                  <div class="clear"></div>
+               </section>
+               <section>
+                  <div class="sectionTitle">
+                     <h1>Võõrkeeled</h1>
+                  </div>
+                  <div class="sectionContent">
+                     <ul class="list">
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;inglise</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;saksa</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;vene</li>
+                     </ul>
+                  </div>
+                  <div class="clear"></div>
+               </section>
+            </div>
+         </div>
+      </page>
+</body>
